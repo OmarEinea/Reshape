@@ -2,7 +2,74 @@
 <scene PGFVersion="0.19" GSCVersion="0.10.5" id="id535661">
   <layers>
     <layer id="id448389">
-      <actors />
+      <actors>
+        <actor id="id184106" prototype="id529063">
+          <attributes>
+            <point id="position">
+              <real id="x">640</real>
+              <real id="y">1800</real>
+            </point>
+            <size id="size">
+              <real id="width">1280</real>
+              <real id="height">3600</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id300876" prototype="id918273">
+          <attributes>
+            <point id="position">
+              <real id="x">327.2</real>
+              <real id="y">3282.4</real>
+            </point>
+            <size id="size">
+              <real id="width">100</real>
+              <real id="height">100</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id775020" prototype="id726781">
+          <attributes>
+            <point id="position">
+              <real id="x">299.2</real>
+              <real id="y">3170.4</real>
+            </point>
+            <size id="size">
+              <real id="width">400</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
       <attributes>
         <text id="name">Background</text>
         <boolean id="scrollable">true</boolean>
@@ -14,13 +81,13 @@
     <real id="time">0</real>
     <size id="size">
       <real id="width">1280</real>
-      <real id="height">720</real>
+      <real id="height">3600</real>
     </size>
     <boolean id="wrapX">false</boolean>
     <boolean id="wrapY">false</boolean>
     <point id="gravity">
       <real id="x">0</real>
-      <real id="y">0</real>
+      <real id="y">200</real>
     </point>
     <color id="color">
       <real id="red">0</real>
@@ -31,7 +98,7 @@
     <rect id="camera">
       <point id="origin">
         <real id="x">0</real>
-        <real id="y">0</real>
+        <real id="y">2880</real>
       </point>
       <size id="size">
         <real id="width">1280</real>

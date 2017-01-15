@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game GSCVersion="0.10.5" PGFVersion="0.19" title="Reshape">
-  <tags />
-  <resolutionIndependence>0</resolutionIndependence>
-  <instructions>Add game instructions here.</instructions>
-  <resolution>5</resolution>
-  <longDescription>A simple game.</longDescription>
-  <prototypes />
-  <plugins />
-  <scenes>
-    <scene id="id535661" />
-  </scenes>
   <attributes>
     <text id="name">default name</text>
     <real id="time">0</real>
@@ -19,4 +9,18 @@
     </size>
     <text id="actorTags" />
   </attributes>
+  <tags />
+  <resolutionIndependence>0</resolutionIndependence>
+  <instructions>Add game instructions here.</instructions>
+  <resolution>5</resolution>
+  <longDescription>A simple game.</longDescription>
+  <prototypes>
+    <actor id="id529063" />
+    <actor id="id918273" />
+    <actor id="id726781" />
+  </prototypes>
+  <plugins />
+  <scenes>
+    <scene id="id535661" />
+  </scenes>
 </game>
