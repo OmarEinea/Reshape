@@ -8,6 +8,8 @@
       <real id="height">720</real>
     </size>
     <text id="actorTags" />
+    <text id="id421062" name="Platform Image" />
+    <integer id="id600442" name="Shape Velocity">100</integer>
   </attributes>
   <tags />
   <resolutionIndependence>0</resolutionIndependence>
