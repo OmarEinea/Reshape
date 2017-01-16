@@ -3,24 +3,22 @@
   <layers>
     <layer id="id448389">
       <actors>
-        <actor id="id184106" prototype="id529063">
+        <actor id="id526405" prototype="id918273">
           <attributes>
             <point id="position">
-              <real id="x">640</real>
-              <real id="y">1800</real>
+              <real id="x">105.6</real>
+              <real id="y">1753.6</real>
             </point>
             <size id="size">
-              <real id="width">1280</real>
-              <real id="height">3600</real>
+              <real id="width">75</real>
+              <real id="height">75</real>
             </size>
             <angle id="rotation">0</angle>
+            <image id="image">square</image>
           </attributes>
           <aspects>
             <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
+              <attributes />
             </graphics>
             <motion />
             <physics>
@@ -28,24 +26,22 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id300876" prototype="id918273">
+        <actor id="id860785" prototype="id726781">
           <attributes>
             <point id="position">
-              <real id="x">327.2</real>
-              <real id="y">3282.4</real>
+              <real id="x">199.8</real>
+              <real id="y">1662.4</real>
             </point>
             <size id="size">
-              <real id="width">100</real>
-              <real id="height">100</real>
+              <real id="width">500</real>
+              <real id="height">30</real>
             </size>
             <angle id="rotation">0</angle>
+            <image id="image">triangle platform</image>
           </attributes>
           <aspects>
             <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
+              <attributes />
             </graphics>
             <motion />
             <physics>
@@ -53,17 +49,41 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id589990" prototype="id726781">
+        <actor id="id456576" prototype="id726781">
           <attributes>
             <point id="position">
-              <real id="x">356</real>
-              <real id="y">3145.6</real>
+              <real id="x">414.4</real>
+              <real id="y">1556</real>
             </point>
             <size id="size">
-              <real id="width">400</real>
-              <real id="height">40</real>
+              <real id="width">500</real>
+              <real id="height">30</real>
             </size>
             <angle id="rotation">0</angle>
+            <image id="image">circle platform</image>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id599292" prototype="id726781">
+          <attributes>
+            <point id="position">
+              <real id="x">708</real>
+              <real id="y">1448.6</real>
+            </point>
+            <size id="size">
+              <real id="width">500</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">square platform</image>
           </attributes>
           <aspects>
             <graphics>
@@ -86,8 +106,8 @@
     <text id="name">Initial Scene</text>
     <real id="time">0</real>
     <size id="size">
-      <real id="width">1280</real>
-      <real id="height">3600</real>
+      <real id="width">960</real>
+      <real id="height">2880</real>
     </size>
     <boolean id="wrapX">false</boolean>
     <boolean id="wrapY">false</boolean>
@@ -104,15 +124,15 @@
     <rect id="camera">
       <point id="origin">
         <real id="x">0</real>
-        <real id="y">2880</real>
+        <real id="y">1320</real>
       </point>
       <size id="size">
-        <real id="width">1280</real>
+        <real id="width">960</real>
         <real id="height">720</real>
       </size>
       <size id="trackingArea">
-        <real id="width">1200</real>
-        <real id="height">660</real>
+        <real id="width">545.316486868262</real>
+        <real id="height">360</real>
       </size>
       <real id="rotation">0</real>
     </rect>

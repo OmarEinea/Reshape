@@ -4,7 +4,7 @@
     <text id="name">default name</text>
     <real id="time">0</real>
     <size id="displaySize">
-      <real id="width">1280</real>
+      <real id="width">960</real>
       <real id="height">720</real>
     </size>
     <text id="actorTags" />

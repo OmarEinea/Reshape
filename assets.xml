@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assets PGFVersion="0.19" GSCVersion="0.10.5">
   <sounds />
-  <images />
+  <images>
+    <image name="circle platform">
+      <file name="circle platform.png" size="3048" />
+    </image>
+    <image name="triangle platform">
+      <file name="triangle platform.png" size="2833" />
+    </image>
+    <image name="square">
+      <file name="square.png" size="2376" />
+    </image>
+    <image name="circle">
+      <file name="circle.png" size="7726" />
+    </image>
+    <image name="triangle">
+      <file name="triangle.png" size="3242" />
+    </image>
+    <image name="square platform">
+      <file name="square platform.png" size="2392" />
+    </image>
+  </images>
   <behaviors />
 </assets>
