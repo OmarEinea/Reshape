@@ -9,7 +9,7 @@
     </size>
     <text id="actorTags" />
     <text id="id421062" name="Platform Image" />
-    <integer id="id600442" name="Shape Velocity">100</integer>
+    <angle id="id458202" name="Platform Angle">0</angle>
   </attributes>
   <tags />
   <resolutionIndependence>0</resolutionIndependence>

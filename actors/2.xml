@@ -23,102 +23,6 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id395958" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">On Change Shape</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id494726" eventType="key" pluginPredicateTypeIndex="0" class="Key">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="key">
-            <attributes>
-              <text id="mode">down</text>
-              <text id="keyString">space</text>
-            </attributes>
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id725652" class="RuleBehavior" enabled="true">
-          <attributes>
-            <text id="name">Switch Shape Image</text>
-            <text id="bundleName">Rule.behavior</text>
-            <real id="compoundConditionKind">0</real>
-          </attributes>
-          <conditions>
-            <condition id="id533197" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-              <attributes>
-                <index id="conditionType">1</index>
-                <text id="subjectAttribute">self.attributes.image</text>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="string">
-                <attributes>
-                  <text id="operator">contains</text>
-                  <text id="RHS">square</text>
-                </attributes>
-              </predicate>
-            </condition>
-          </conditions>
-          <behaviors>
-            <behavior id="id705542" class="ChangeImageAction" enabled="true">
-              <attributes>
-                <text id="name">Change Image</text>
-                <text id="bundleName">ChangeImage.behavior</text>
-                <image id="image">circle</image>
-              </attributes>
-            </behavior>
-          </behaviors>
-          <elseBehaviors>
-            <behavior id="id497529" class="RuleBehavior" enabled="true">
-              <attributes>
-                <text id="name">Rule</text>
-                <text id="bundleName">Rule.behavior</text>
-                <real id="compoundConditionKind">0</real>
-              </attributes>
-              <conditions>
-                <condition id="id313899" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-                  <attributes>
-                    <index id="conditionType">1</index>
-                    <text id="subjectAttribute">self.attributes.image</text>
-                    <text id="name">default name</text>
-                  </attributes>
-                  <predicate type="string">
-                    <attributes>
-                      <text id="operator">contains</text>
-                      <text id="RHS">circle</text>
-                    </attributes>
-                  </predicate>
-                </condition>
-              </conditions>
-              <behaviors>
-                <behavior id="id433089" class="ChangeImageAction" enabled="true">
-                  <attributes>
-                    <text id="name">Change Image</text>
-                    <text id="bundleName">ChangeImage.behavior</text>
-                    <image id="image">triangle</image>
-                  </attributes>
-                </behavior>
-              </behaviors>
-              <elseBehaviors>
-                <behavior id="id356995" class="ChangeImageAction" enabled="true">
-                  <attributes>
-                    <text id="name">Change Image</text>
-                    <text id="bundleName">ChangeImage.behavior</text>
-                    <image id="image">square</image>
-                  </attributes>
-                </behavior>
-              </elseBehaviors>
-            </behavior>
-          </elseBehaviors>
-        </behavior>
-      </behaviors>
-    </behavior>
     <behavior id="id207162" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">On Move Left</text>
@@ -179,40 +83,33 @@
             </condition>
           </conditions>
           <behaviors>
-            <behavior id="id479013" class="ChangeVelocityAction" enabled="true">
+            <behavior id="id982969" class="InterpolateBehavior" enabled="true">
               <attributes>
-                <text id="name">Change Velocity</text>
-                <text id="bundleName">ChangeVelocity.behavior</text>
-                <angle id="direction">180</angle>
-                <index id="space">1</index>
-                <real id="speed">300</real>
+                <text id="name">Interpolate</text>
+                <text id="bundleName">Interpolate.behavior</text>
+                <boolean id="runToCompletion">true</boolean>
+                <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                <real id="finalValue">-300</real>
+                <real id="duration">0.25</real>
+                <index id="easing">0</index>
               </attributes>
             </behavior>
           </behaviors>
           <elseBehaviors>
-            <behavior id="id696811" class="ChangeVelocityAction" enabled="true">
+            <behavior id="id564936" class="InterpolateBehavior" enabled="true">
               <attributes>
-                <text id="name">Change Velocity</text>
-                <text id="bundleName">ChangeVelocity.behavior</text>
-                <angle id="direction">180</angle>
-                <index id="space">1</index>
-                <real id="speed">100</real>
+                <text id="name">Interpolate</text>
+                <text id="bundleName">Interpolate.behavior</text>
+                <boolean id="runToCompletion">true</boolean>
+                <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                <real id="finalValue">-50</real>
+                <real id="duration">0.25</real>
+                <index id="easing">0</index>
               </attributes>
             </behavior>
           </elseBehaviors>
         </behavior>
       </behaviors>
-      <elseBehaviors>
-        <behavior id="id587900" class="ChangeVelocityAction" enabled="true">
-          <attributes>
-            <text id="name">Change Velocity</text>
-            <text id="bundleName">ChangeVelocity.behavior</text>
-            <angle id="direction">0</angle>
-            <index id="space">1</index>
-            <real id="speed">0</real>
-          </attributes>
-        </behavior>
-      </elseBehaviors>
     </behavior>
     <behavior id="id558005" class="RuleBehavior" enabled="true">
       <attributes>
@@ -274,48 +171,115 @@
             </condition>
           </conditions>
           <behaviors>
-            <behavior id="id255348" class="ChangeVelocityAction" enabled="true">
+            <behavior id="id128986" class="InterpolateBehavior" enabled="true">
               <attributes>
-                <text id="name">Change Velocity</text>
-                <text id="bundleName">ChangeVelocity.behavior</text>
-                <angle id="direction">0</angle>
-                <index id="space">1</index>
-                <real id="speed">300</real>
+                <text id="name">Interpolate</text>
+                <text id="bundleName">Interpolate.behavior</text>
+                <boolean id="runToCompletion">true</boolean>
+                <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                <real id="finalValue">300</real>
+                <real id="duration">0.25</real>
+                <index id="easing">0</index>
               </attributes>
             </behavior>
           </behaviors>
           <elseBehaviors>
-            <behavior id="id768993" class="ChangeVelocityAction" enabled="true">
+            <behavior id="id320478" class="InterpolateBehavior" enabled="true">
               <attributes>
-                <text id="name">Change Velocity</text>
-                <text id="bundleName">ChangeVelocity.behavior</text>
-                <angle id="direction">0</angle>
-                <index id="space">1</index>
-                <real id="speed">100</real>
+                <text id="name">Interpolate</text>
+                <text id="bundleName">Interpolate.behavior</text>
+                <boolean id="runToCompletion">true</boolean>
+                <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                <real id="finalValue">50</real>
+                <real id="duration">0.25</real>
+                <index id="easing">0</index>
               </attributes>
             </behavior>
           </elseBehaviors>
         </behavior>
       </behaviors>
-      <elseBehaviors>
-        <behavior id="id443275" class="ChangeVelocityAction" enabled="true">
+    </behavior>
+    <behavior id="id784773" class="RuleBehavior" enabled="false">
+      <attributes>
+        <text id="name">On Stop</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id486580" eventType="key" pluginPredicateTypeIndex="0" class="Key">
           <attributes>
-            <text id="name">Change Velocity</text>
-            <text id="bundleName">ChangeVelocity.behavior</text>
-            <angle id="direction">0</angle>
-            <index id="space">1</index>
-            <real id="speed">0</real>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">up</text>
+              <text id="keyString">right</text>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id778613" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">up</text>
+              <text id="keyString">left</text>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id980186" class="InterpolateBehavior" enabled="true">
+          <attributes>
+            <text id="name">Interpolate</text>
+            <text id="bundleName">Interpolate.behavior</text>
+            <boolean id="runToCompletion">true</boolean>
+            <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+            <real id="finalValue">0</real>
+            <real id="duration">0.25</real>
+            <index id="easing">0</index>
           </attributes>
         </behavior>
-      </elseBehaviors>
+        <behavior id="id627112" class="InterpolateBehavior" enabled="true">
+          <attributes>
+            <text id="name">Interpolate</text>
+            <text id="bundleName">Interpolate.behavior</text>
+            <boolean id="runToCompletion">true</boolean>
+            <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.y</text>
+            <real id="finalValue">0</real>
+            <real id="duration">0.25</real>
+            <index id="easing">0</index>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
-    <behavior id="id404589" class="DisplayTextBehavior" enabled="true">
+    <behavior id="id879799" class="ControlCameraBehavior" enabled="true">
+      <attributes>
+        <text id="name">Control Camera</text>
+        <text id="bundleName">ControlCamera.behavior</text>
+      </attributes>
+    </behavior>
+    <behavior id="id879205" class="AccelerateBehavior" enabled="true">
+      <attributes>
+        <text id="name">Accelerate</text>
+        <text id="bundleName">Accelerate.behavior</text>
+        <angle id="direction">270</angle>
+        <index id="space">1</index>
+        <real id="acceleration">150</real>
+      </attributes>
+    </behavior>
+    <behavior id="id173311" class="DisplayTextBehavior" enabled="true">
       <attributes>
         <text id="name">Display Text</text>
         <text id="bundleName">DisplayText.behavior</text>
         <text id="text">
           <expression>
-            <reference keypath="game.attributes.id600442" />
+            <string xml:space="preserve">floor(</string>
+            <reference keypath="self.aspects.motion.attributes.linearVelocity.x" />
+            <string xml:space="preserve">)</string>
           </expression>
         </text>
         <text id="font">Arial</text>
@@ -353,7 +317,7 @@
           <real id="y">0</real>
         </point>
         <real id="angularVelocity">0</real>
-        <real id="maxSpeed">0</real>
+        <real id="maxSpeed">300</real>
         <boolean id="applyMaxSpeed">false</boolean>
       </attributes>
     </motion>
@@ -361,10 +325,10 @@
       <attributes>
         <real id="density">1</real>
         <real id="friction">0</real>
-        <real id="restitution">0.1</real>
+        <real id="restitution">0</real>
         <boolean id="fixedRotation">false</boolean>
         <boolean id="movable">true</boolean>
-        <enumeration id="collisionShape">0</enumeration>
+        <enumeration id="collisionShape">1</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
       </attributes>
