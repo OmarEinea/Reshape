@@ -59,6 +59,12 @@
     <image name="head platform">
       <file name="head platform.png" size="3590" />
     </image>
+    <image name="Background - Lines">
+      <file name="Background - Lines.png" size="2955736" />
+    </image>
+    <image name="Background - Night">
+      <file name="Background - Night.png" size="43230" />
+    </image>
   </images>
   <behaviors />
 </assets>
