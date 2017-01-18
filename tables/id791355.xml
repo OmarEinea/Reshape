@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table version="0.000000" name="Shapes" numRows="3" numCols="3" flags="9" tableType="0" tableSkew="0">
+    <rows>
+        <row id="0" name=""/>
+        <row id="1" name=""/>
+        <row id="2" name=""/>
+    </rows>
+    <columns>
+        <column id="0" name="" type="0" readonly="0">pant,hand,leg</column>
+        <column id="1" name="" type="0" readonly="0">body,sarm,wleg</column>
+        <column id="2" name="" type="0" readonly="0">head,hook,arm</column>
+    </columns>
+</table>
+

@@ -20,6 +20,45 @@
     <image name="pant">
       <file name="pant.png" size="1913" />
     </image>
+    <image name="Background">
+      <file name="Background.png" size="33816" />
+    </image>
+    <image name="body">
+      <file name="body.png" size="1792" />
+    </image>
+    <image name="head">
+      <file name="head.png" size="2420" />
+    </image>
+    <image name="sarm">
+      <file name="sarm.png" size="2345" />
+    </image>
+    <image name="arm">
+      <file name="arm.png" size="2651" />
+    </image>
+    <image name="wleg">
+      <file name="wleg.png" size="1842" />
+    </image>
+    <image name="hook">
+      <file name="hook.png" size="2563" />
+    </image>
+    <image name="hook platform">
+      <file name="hook platform.png" size="4003" />
+    </image>
+    <image name="wleg platform">
+      <file name="wleg platform.png" size="3791" />
+    </image>
+    <image name="arm platform">
+      <file name="arm platform.png" size="3790" />
+    </image>
+    <image name="sarm platform">
+      <file name="sarm platform.png" size="2987" />
+    </image>
+    <image name="body platform">
+      <file name="body platform.png" size="3644" />
+    </image>
+    <image name="head platform">
+      <file name="head platform.png" size="3590" />
+    </image>
   </images>
   <behaviors />
 </assets>

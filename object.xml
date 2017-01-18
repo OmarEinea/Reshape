@@ -10,6 +10,8 @@
     <text id="actorTags" />
     <text id="id421062" name="Platform Image" />
     <angle id="id458202" name="Platform Angle">0</angle>
+    <table id="id791355" name="Shapes">Table 1</table>
+    <integer id="id307697" name="Level">1</integer>
   </attributes>
   <tags />
   <resolutionIndependence>0</resolutionIndependence>

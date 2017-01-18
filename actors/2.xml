@@ -21,6 +21,7 @@
     <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
+    <integer id="id487177" name="Index">1</integer>
   </attributes>
   <behaviors>
     <behavior id="id207162" class="RuleBehavior" enabled="true">
@@ -293,6 +294,61 @@
           <real id="alpha">1</real>
         </color>
       </attributes>
+    </behavior>
+    <behavior id="id247622" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">On Shape Change</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id120329" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">space</text>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id947661" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">self.attributes.image</text>
+            <text id="RHS">
+              <expression>
+                <string xml:space="preserve">tableCellValue(</string>
+                <reference keypath="game.attributes.id791355" />
+                <string xml:space="preserve">, </string>
+                <reference keypath="self.attributes.id487177" />
+                <string xml:space="preserve">, </string>
+                <reference keypath="game.attributes.id307697" />
+                <string xml:space="preserve">)</string>
+              </expression>
+            </text>
+          </attributes>
+        </behavior>
+        <behavior id="id247036" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">self.attributes.id487177</text>
+            <text id="RHS">
+              <expression>
+                <string xml:space="preserve">(</string>
+                <reference keypath="self.attributes.id487177" />
+                <string xml:space="preserve"> % 3) + 1</string>
+              </expression>
+            </text>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>
