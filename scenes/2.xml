@@ -266,8 +266,8 @@
         <actor id="id771183" prototype="id726781">
           <attributes>
             <point id="position">
-              <real id="x">20</real>
-              <real id="y">1743</real>
+              <real id="x">24</real>
+              <real id="y">1843</real>
             </point>
             <size id="size">
               <real id="width">400</real>
@@ -292,8 +292,8 @@
         <actor id="id594603" prototype="id726781">
           <attributes>
             <point id="position">
-              <real id="x">20</real>
-              <real id="y">2201</real>
+              <real id="x">25</real>
+              <real id="y">2240</real>
             </point>
             <size id="size">
               <real id="width">400</real>
@@ -864,7 +864,7 @@
           <attributes>
             <point id="position">
               <real id="x">470</real>
-              <real id="y">147</real>
+              <real id="y">146</real>
             </point>
             <size id="size">
               <real id="width">400</real>
@@ -889,8 +889,8 @@
         <actor id="id495695" prototype="id726781">
           <attributes>
             <point id="position">
-              <real id="x">20</real>
-              <real id="y">198</real>
+              <real id="x">23</real>
+              <real id="y">251</real>
             </point>
             <size id="size">
               <real id="width">400</real>
@@ -915,8 +915,8 @@
         <actor id="id683513" prototype="id726781">
           <attributes>
             <point id="position">
-              <real id="x">20</real>
-              <real id="y">595</real>
+              <real id="x">23</real>
+              <real id="y">650</real>
             </point>
             <size id="size">
               <real id="width">400</real>
@@ -941,8 +941,8 @@
         <actor id="id356388" prototype="id726781">
           <attributes>
             <point id="position">
-              <real id="x">772</real>
-              <real id="y">501</real>
+              <real id="x">749</real>
+              <real id="y">502</real>
             </point>
             <size id="size">
               <real id="width">400</real>
@@ -1019,7 +1019,7 @@
         <actor id="id745487" prototype="id726781">
           <attributes>
             <point id="position">
-              <real id="x">184</real>
+              <real id="x">189</real>
               <real id="y">433</real>
             </point>
             <size id="size">
@@ -1042,7 +1042,7 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id713494" prototype="id918273">
+        <actor id="id684742" prototype="id918273">
           <attributes>
             <point id="position">
               <real id="x">776.8</real>
