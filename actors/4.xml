@@ -58,6 +58,14 @@
             </text>
           </attributes>
         </behavior>
+        <behavior id="id784667" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id861440</text>
+            <text id="RHS">false</text>
+          </attributes>
+        </behavior>
         <behavior id="id577352" class="ChangeSceneAction" enabled="true">
           <attributes>
             <text id="name">Change Scene</text>

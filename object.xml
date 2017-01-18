@@ -11,7 +11,9 @@
     <text id="id421062" name="Platform Image" />
     <angle id="id458202" name="Platform Angle">0</angle>
     <table id="id791355" name="Shapes">Table 1</table>
-    <integer id="id307697" name="Level">1</integer>
+    <integer id="id307697" name="Level">3</integer>
+    <boolean id="id861440" name="Game Started">false</boolean>
+    <integer id="id911203" name="CameraY">0</integer>
   </attributes>
   <tags />
   <resolutionIndependence>0</resolutionIndependence>
@@ -23,11 +25,13 @@
     <actor id="id918273" />
     <actor id="id726781" />
     <actor id="id703084" />
+    <actor id="id319993" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id535661" />
     <scene id="id805192" />
     <scene id="id527288" />
+    <scene id="id634135" />
   </scenes>
 </game>

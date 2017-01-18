@@ -264,6 +264,84 @@
         </behavior>
       </behaviors>
     </behavior>
+    <behavior id="id745175" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">On Game Start</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">1</real>
+      </attributes>
+      <conditions>
+        <condition id="id485117" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">left</text>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id793261" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">right</text>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id836812" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">space</text>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id464248" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Start Game</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id327977" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+              <attributes>
+                <index id="conditionType">1</index>
+                <text id="subjectAttribute">game.attributes.id861440</text>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="boolean">
+                <attributes>
+                  <index id="RHS">0</index>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id746890" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id861440</text>
+                <text id="RHS">true</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
   </behaviors>
   <aspects>
     <graphics>
