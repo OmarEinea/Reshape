@@ -1042,15 +1042,15 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id684742" prototype="id918273">
+        <actor id="id713494" prototype="id918273">
           <attributes>
             <point id="position">
-              <real id="x">774.4</real>
-              <real id="y">2711.2</real>
+              <real id="x">776.8</real>
+              <real id="y">2714.4</real>
             </point>
             <size id="size">
-              <real id="width">100</real>
-              <real id="height">100</real>
+              <real id="width">75</real>
+              <real id="height">75</real>
             </size>
             <angle id="rotation">0</angle>
             <image id="image">wleg</image>

@@ -22,10 +22,12 @@
     <actor id="id529063" />
     <actor id="id918273" />
     <actor id="id726781" />
+    <actor id="id703084" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id535661" />
     <scene id="id805192" />
+    <scene id="id372896" />
   </scenes>
 </game>
