@@ -12,8 +12,11 @@
     <angle id="id458202" name="Platform Angle">0</angle>
     <table id="id791355" name="Shapes">Table 1</table>
     <integer id="id307697" name="Level">1</integer>
+<<<<<<< HEAD
     <integer id="id114209" name="Level 2">2</integer>
     <integer id="id335212" name="Level 3">3</integer>
+=======
+>>>>>>> origin/master
   </attributes>
   <tags />
   <resolutionIndependence>0</resolutionIndependence>
